@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://your-github-username.github.io/guardplus-spray-lab/sitemap.xml
