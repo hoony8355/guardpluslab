@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { Article } from './types';
 import CTAButton from './components/ui/CTAButton';
@@ -16,13 +15,13 @@ export const ARTICLES: Article[] = [
     title: '가드플러스 호신용 스프레이 실사용 후기 및 장단점 분석',
     description: '가드플러스 호신용 스프레이를 직접 사용해본 솔직한 후기. 강력한 분사력부터 휴대성까지, 장점과 단점을 가감없이 분석합니다.',
     keywords: '가드플러스 후기, 호신용 스프레이 리뷰, self defense spray review',
-    image: 'https://picsum.photos/1200/800?random=1',
+    image: 'https://source.unsplash.com/1200x800/?hand,holding,spray-bottle',
     publishedDate: '2024-07-28',
     content: () => (
       <div className="prose prose-lg dark:prose-invert max-w-none">
         <h2>서론: 왜 가드플러스인가?</h2>
         <p>최근 흉흉한 소식이 많아지면서 스스로를 지킬 수단에 대한 관심이 높아지고 있습니다. 수많은 호신용품 중에서도 호신용 스프레이는 비살상적이면서도 즉각적인 효과를 볼 수 있어 가장 현실적인 대안으로 꼽힙니다. 오늘은 그중에서도 가장 주목받는 제품, '가드플러스'를 직접 사용해본 경험을 바탕으로 솔직한 후기를 공유하고자 합니다.</p>
-        <img src="https://picsum.photos/1200/800?random=10" alt="가드플러스 제품 패키지" className="rounded-lg shadow-lg my-8" />
+        <img src="https://source.unsplash.com/1200x800/?product,package,box" alt="가드플러스 제품 패키지" className="rounded-lg shadow-lg my-8" />
         
         <h2>장점 1: 압도적인 분사력과 사거리</h2>
         <p>가드플러스의 가장 큰 장점은 단연코 강력한 분사력입니다. 버튼을 누르는 순간, 마치 소화기처럼 직선으로 강력하게 뻗어 나가는 액체를 보고 놀랐습니다. 공식 스펙상 유효 사거리는 3~5m인데, 실제 테스트 결과 바람이 없는 환경에서는 4m 이상 무리 없이 도달했습니다. 이는 위협 상황에서 상대와 안전거리를 확보하며 대응할 수 있다는 점에서 엄청난 심리적 안정감을 줍니다.</p>
@@ -46,7 +45,7 @@ export const ARTICLES: Article[] = [
     title: '국내 호신용 스프레이 법적 규제 및 안전 사용 가이드',
     description: '호신용 스프레이 구매 및 소지, 사용은 합법일까요? 대한민국 법규를 기준으로 호신용 스프레이의 법적 지위와 안전한 사용법을 명확하게 알려드립니다.',
     keywords: '호신용 스프레이 법규, 가스총 소지허가, 정당방위',
-    image: 'https://picsum.photos/1200/800?random=2',
+    image: 'https://source.unsplash.com/1200x800/?law,book,gavel',
     publishedDate: '2024-07-27',
     content: () => (
       <div className="prose prose-lg dark:prose-invert max-w-none">
@@ -80,13 +79,13 @@ export const ARTICLES: Article[] = [
     title: '여성/야간 귀가자를 위한 도시 방어 팁 5가지',
     description: '어두운 밤길, 혼자 귀가할 때 불안하신가요? 가드플러스 호신용 스프레이와 함께 당신의 안전을 지켜줄 5가지 필수 도시 방어 팁을 소개합니다.',
     keywords: '여성 안전, 야간 귀가, 범죄 예방, 도시 방어',
-    image: 'https://picsum.photos/1200/800?random=3',
+    image: 'https://source.unsplash.com/1200x800/?woman,walking,night,city',
     publishedDate: '2024-07-26',
     content: () => (
         <div className="prose prose-lg dark:prose-invert max-w-none">
             <h2>도시의 밤, 더 이상 두려워하지 마세요.</h2>
             <p>통계에 따르면 대부분의 강력 범죄는 인적이 드문 야간에 발생합니다. 특히 여성이나 혼자 귀가하는 사람들은 범죄의 표적이 되기 쉽습니다. 하지만 몇 가지 수칙만 지킨다면 위험을 크게 줄일 수 있습니다. 가드플러스와 함께 당신의 안전한 귀갓길을 위한 팁을 알아보세요.</p>
-            <img src="https://picsum.photos/1200/800?random=11" alt="밤 거리를 걷는 여성" className="rounded-lg shadow-lg my-8" />
+            <img src="https://source.unsplash.com/1200x800/?dark,street,city" alt="밤 거리를 걷는 여성" className="rounded-lg shadow-lg my-8" />
             
             <h3>1. '스마트폰은 잠시 주머니에' - 주변 경계</h3>
             <p>귀가길에 이어폰을 끼고 있거나 스마트폰에 집중하는 것은 주변 상황에 대한 인지 능력을 크게 떨어뜨립니다. 잠재적 위협을 미리 감지할 수 없게 되므로, 인적이 드문 곳에서는 전방과 후방을 수시로 살피며 걷는 습관을 들이는 것이 중요합니다.</p>
@@ -114,7 +113,7 @@ export const ARTICLES: Article[] = [
     title: '초보자를 위한 호신용 스프레이 Q&A: 모든 궁금증 해결',
     description: '호신용 스프레이, 처음이라 궁금한 게 많으시죠? 구매부터 사용, 보관까지 가장 자주 묻는 질문들을 모아 명쾌하게 답변해 드립니다.',
     keywords: '호신용 스프레이 Q&A, 가드플러스 질문, pepper spray faq',
-    image: 'https://picsum.photos/1200/800?random=4',
+    image: 'https://source.unsplash.com/1200x800/?question-mark',
     publishedDate: '2024-07-25',
     content: () => (
       <div className="prose prose-lg dark:prose-invert max-w-none">
@@ -148,7 +147,7 @@ export const ARTICLES: Article[] = [
     title: '타사 제품 vs 가드플러스: 무엇이 다른가? 성능 비교 분석',
     description: '시중에 판매되는 다양한 호신용 스프레이와 가드플러스를 분사 방식, 성분, 휴대성 등 주요 항목별로 비교하여 최고의 제품을 선택할 수 있도록 돕습니다.',
     keywords: '호신용 스프레이 비교, 가드플러스 성능, pepper spray comparison',
-    image: 'https://picsum.photos/1200/800?random=5',
+    image: 'https://source.unsplash.com/1200x800/?compare,checklist,choices',
     publishedDate: '2024-07-24',
     content: () => (
       <div className="prose prose-lg dark:prose-invert max-w-none">
